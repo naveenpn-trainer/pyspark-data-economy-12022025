@@ -1,1 +1,5 @@
 pyspark==3.2.4
+
+
+# COnfluent Kafka
+confluent-kafka
