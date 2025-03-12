@@ -1,0 +1,6 @@
+customer_id,name,location,loyalty_status
+C123,John Doe,New York,VIP
+C456,Jane Smith,San Francisco,Regular
+C789,Michael Brown,Chicago,New
+C101,Emily Davis,Los Angeles,VIP
+C102,Robert Johnson,Houston,Regular
