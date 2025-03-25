@@ -1,4 +1,6 @@
 from pyspark.sql import SparkSession
+
+
 if __name__ == '__main__':
     spark = SparkSession.builder.appName("Demo App").master("local").getOrCreate()
     # dfr = spark.read
@@ -25,5 +27,4 @@ if __name__ == '__main__':
     # # print(df.rdd.getNumPartitions())
 
     df = spark.read.parquet("../resources/dataset/users/parquet_format/*")
-    df.show()
-    df.printSchema()
+    print(df.count())

@@ -1,0 +1,4 @@
+winget install -e --id Astronomer.Astro -v 1.33.2
+astro dev init
+astro dev start
+astro dev stop
